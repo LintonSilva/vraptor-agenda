@@ -23,13 +23,13 @@
 		<dependency>
 			<groupId>br.com.caelum.vraptor</groupId>
 			<artifactId>vraptor-brutauth</artifactId>
-			<version>4.0.1-RC2</version>
+			<version>4.0.0.Final</version>
 		</dependency>
 
 		<dependency>
 			<groupId>br.com.caelum.vraptor</groupId>
 			<artifactId>vraptor-simple-validator</artifactId>
-			<version>4.0.0-SNAPSHOT</version>
+			<version>4.0.0.Final</version>
 		</dependency>
 
 		<dependency>
