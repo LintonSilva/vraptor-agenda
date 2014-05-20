@@ -1,7 +1,7 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@taglib tagdir="/WEB-INF/tags" prefix="tags"%>
 <tags:layout title="Novo contato">
-	<form method="POST">
+	<form method="POST" action="${linkTo[ContatosController].adiciona()}">
 		<div class="row">
 			<div class="large-12 columns">
 				<label>Nome</label>

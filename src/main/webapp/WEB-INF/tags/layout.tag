@@ -7,10 +7,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="<c:url value='css/normalize.css'/>" />
-    <link rel="stylesheet" href="<c:url value='css/foundation.css'/>" />
-    <link rel="stylesheet" href="<c:url value='css/custom.css'/>" />
-    <script src="<c:url value='js/vendor/modernizr.js'/>"></script>
+    <link rel="stylesheet" href="<c:url value='/css/normalize.css'/>" />
+    <link rel="stylesheet" href="<c:url value='/css/foundation.css'/>" />
+    <link rel="stylesheet" href="<c:url value='/css/custom.css'/>" />
+    <script src="<c:url value='/js/vendor/modernizr.js'/>"></script>
   </head>
   <body>
 	<nav class="top-bar" data-topbar>
@@ -53,8 +53,8 @@
 	</div>
 	
 	    
-    <script src="<c:url value='js/vendor/jquery.js'/>"></script>
-    <script src="<c:url value='js/foundation.min.js'/>"></script>
+    <script src="<c:url value='/js/vendor/jquery.js'/>"></script>
+    <script src="<c:url value='/js/foundation.min.js'/>"></script>
     <script>
       $(document).foundation();
     </script>
