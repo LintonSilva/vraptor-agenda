@@ -3,8 +3,6 @@ package br.com.caelum.vraptor.agenda.controller;
 import javax.inject.Inject;
 
 import br.com.caelum.vraptor.Controller;
-import br.com.caelum.vraptor.Get;
-import br.com.caelum.vraptor.Post;
 import br.com.caelum.vraptor.Result;
 import br.com.caelum.vraptor.agenda.model.Usuario;
 import br.com.caelum.vraptor.agenda.sessao.Sessao;
@@ -28,14 +26,11 @@ public class UsuariosController {
 		this.result = result;
 	}
 	
-	
-	@Get("/login")
 	public void loginForm() {
 	}
 	
-	@Post("/login")
 	public void login(Usuario usuario) {
 		sessao.loga(usuario);
-		result.forwardTo(IndexController.class).index();
+		result.redirectTo(IndexController.class).index();
 	}
 }

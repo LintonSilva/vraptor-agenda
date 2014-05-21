@@ -1,7 +1,7 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@taglib tagdir="/WEB-INF/tags" prefix="tags"%>
 <tags:layout title="Logar">
-	<form method="POST">
+	<form method="POST" action="${linkTo[UsuariosController].login(usuario)}">
 		<div class="row">
 			<div class="large-6 medium-6 columns">
 				<label>Login</label>

@@ -25,7 +25,7 @@ public class IndexController {
 		this.result = result;
 		this.contatos = contatos;
 	}
-
+	
 	@Path("/")
 	public void index() {
 		result.include("contatos", contatos.todos());
